@@ -13,7 +13,7 @@ public class CourseWithStudents {
     public Course course;
     @Relation(
             parentColumn = "id_course",
-            entityColumn = "id_student"
+            entityColumn = "id_fkcourse"
     )
     public List<Student> students;
 
